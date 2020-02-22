@@ -13,6 +13,9 @@ body {
   margin-right: auto;
   display: block;
 }
+.white {
+  color: white !important;
+}
 p {
   line-height: 1.75;
 }
