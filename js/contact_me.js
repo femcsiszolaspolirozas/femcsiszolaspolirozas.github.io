@@ -47,7 +47,12 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Sajnáljuk " + firstName + ", úgy tűnik, a levelező szerver nem válaszol. Kérem próbálja meg később!"));
+          $('#success > .alert-danger').append($("<strong>").text("Sajnáljuk " + firstName + ", úgy tűnik, a levelező szerver nem válaszol. Kérem próbálja meg később,"));
+          $('#success > .alert-danger').append("<br>")
+          $('#success > .alert-danger').append("<strong>vagy keressen emailen: ");
+          $('#success > .alert-danger').append('<a style="color:#007bff" href=\"mailto:femcsiszolaspolirozas@gmail.com\">femcsiszolaspolirozas@gmail.com</a>');
+          $('#success > .alert-danger').append(" vagy telefonon: ");
+          $('#success > .alert-danger').append('<a style="color:#007bff" href=\"tel:+36306423031\">+36-30-642-3031</a>');
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
