@@ -52,7 +52,7 @@ $(function() {
           $('#success > .alert-danger').append("<strong>vagy keressen emailen: ");
           $('#success > .alert-danger').append('<a style="color:#007bff" href=\"mailto:femcsiszolaspolirozas@gmail.com\">femcsiszolaspolirozas@gmail.com</a>');
           $('#success > .alert-danger').append(" vagy telefonon: ");
-          $('#success > .alert-danger').append('<a style="color:#007bff" href=\"tel:+702341299\">+70-234-1299</a>');
+          $('#success > .alert-danger').append('<a style="color:#007bff" href=\"tel:+36702341299\">+36-70-234-1299</a>');
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
